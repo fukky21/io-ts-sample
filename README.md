@@ -23,7 +23,7 @@ $ curl localhost:3000/users
 $ curl -X POST -H "Content-Type: application/json" -d '{ "name": "Tanaka Taro", "age": 25, "gender": "male", "email": "taro@example.com" }' localhost:3000/users
 ```
 
-# ユーザーデータの定義
+## ユーザーデータの定義
 - `name`: 文字列, 空白はNG
 - `age`: 正の整数, 文字列はNG
 - `gender`: `male`, `female`, `other`のいずれかの文字列, これ以外はNG
